@@ -1,3 +1,5 @@
+const {app} = require('mongoose')
+
 module.exports = (req, res) => {
-  res.status(200).json({req})
+  res.send('holas')
 }
